@@ -15,13 +15,13 @@ import software.amazon.awssdk.services.sqs.SqsAsyncClient;
 
 @Configuration
 public class AmazonSQSConfig {
-    @Value("${cloud.aws.region.static}")
+//    @Value("${cloud.aws.region.static}")
     private String region;
 
-    @Value("${cloud.aws.credentials.access-key}")
+//    @Value("${cloud.aws.credentials.access-key}")
     private String awsAccessKey;
 
-    @Value("${cloud.aws.credentials.secret-key}")
+//    @Value("${cloud.aws.credentials.secret-key}")
     private String awsSecretKey;
 
 
