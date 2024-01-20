@@ -1,19 +1,19 @@
-spring :
-
-#cloud:
-#  aws:
-#    credentials:
-#      access-key: xxxxxx
-#      secret-key: xxxxxx
-#    region:
-#      static: ap-northeast-2 # AWS SQS의 리전정보
-#    stack:
-#      auto: false
-#    sqs:
-#      queue:
-#        name: MyQueue.fifo	# AWS에서 생성한 Queue 이름
-#        url: https://sqs.ap-northeast-2.amazonaws.com/xxxx/MyQueue.fifo # 생성한 SQS 큐 url
-
-#logging:
-#  level:
-#     org.hibernate.SQL : '%d{yyyy-MM-dd HH:mm:ss} %-5level --- [%thread] %logger{35} : %msg %n'
+#spring :
+#
+##cloud:
+##  aws:
+##    credentials:
+##      access-key: xxxxxx
+##      secret-key: xxxxxx
+##    region:
+##      static: ap-northeast-2 # AWS SQS의 리전정보
+##    stack:
+##      auto: false
+##    sqs:
+##      queue:
+##        name: MyQueue.fifo	# AWS에서 생성한 Queue 이름
+##        url: https://sqs.ap-northeast-2.amazonaws.com/xxxx/MyQueue.fifo # 생성한 SQS 큐 url
+#
+##logging:
+##  level:
+##     org.hibernate.SQL : '%d{yyyy-MM-dd HH:mm:ss} %-5level --- [%thread] %logger{35} : %msg %n'
